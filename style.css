@@ -4,11 +4,14 @@ nav{
     
     justify-content: space-between;
 }
+
 .header{
     background-color: #FFF8F3;
    
-
-
+}
+main{
+    width: 1200px;
+    
 }
 .marry{
     font-size: 33px;
@@ -65,4 +68,25 @@ nav ul li a{
     max-width: 600px;
     margin: auto;
     margin-top: 100px;
+}
+.about_content{
+    display: flex;
+    justify-content: space-around;
+}
+.whatIdo{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.whatImage{
+    display: flex;
+    justify-content: space-between;
+    max-width: 780px;
+    margin: auto;
+    margin-top: 90px;
+}
+.imageJ{
+    margin-left: 22px;
+    
 }
