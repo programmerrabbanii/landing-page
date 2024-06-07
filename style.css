@@ -103,6 +103,7 @@ nav ul li a{
 }
 .ourBtn {
     text-align: center;
+    margin: 50px 50px;
     
 }
 .ourBtn a{
@@ -117,4 +118,42 @@ nav ul li a{
     background-color: orangered;
     border: none;
     padding: 14px 29px;
+}
+.main_letes{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.letes_right{
+    width: 50%;
+
+}
+.letes_message{
+    width: 50%;
+
+}
+.main_letes{
+    background-color: #FFF8F3;
+    padding: 55px;
+}
+.letes_message input {
+    border: none;
+    padding: 18px;
+    margin-top: 10px;
+    width: 100%;
+}
+.letes_message textarea{
+    padding: 18px;
+    margin-top: 18px;
+    width: 100%;
+    height: 92px;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+}
+.fa-brands{
+    color: orangered;
 }
